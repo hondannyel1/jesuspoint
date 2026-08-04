@@ -1,0 +1,46 @@
+
+.Greetings{
+text-align: center;
+text-transform: uppercase;
+top: 50%;
+border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0d0d0d;
+margin-bottom: 10px;
+
+
+
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+border: 1px solid #ddd;
+box-shadow: 5px 5px 5px hsl(0, 0%, 0.1%);
+
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: #edf0f4;
+  text-align: center;
+  padding: 10px;
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
