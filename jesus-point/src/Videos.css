@@ -1,0 +1,52 @@
+.videos-page {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.videos-card {
+  width: 100%;
+  max-width: 920px;
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 24px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.16);
+  text-align: center;
+}
+
+.videos-card h1 {
+  margin-bottom: 12px;
+  color: #9b2c62;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.video-card {
+  background: #fff8ee;
+  padding: 14px;
+  border-radius: 16px;
+}
+
+.video-card h3 {
+  margin: 0 0 10px;
+  color: #4d2b6b;
+}
+
+.video-player {
+  width: 100%;
+  border-radius: 12px;
+  background: #000;
+}
+
+@media (max-width: 900px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}

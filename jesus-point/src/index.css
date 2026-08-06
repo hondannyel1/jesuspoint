@@ -1,46 +1,66 @@
 
-.Greetings{
-text-align: center;
-text-transform: uppercase;
-top: 50%;
-border-radius: 50px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #0d0d0d;
-margin-bottom: 10px;
 
-
-
-}
-.image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-border: 1px solid #ddd;
-box-shadow: 5px 5px 5px hsl(0, 0%, 0.1%);
-
-  border-radius: 50%;
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #252525;
+  background: linear-gradient(135deg, #fff5e8, #ffe5f1 55%, #f5e8ff);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
 
+#root {
+  min-height: 100vh;
+}
 
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
+.app-main {
+  flex: 1;
+}
 
+.top-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 12px 8px;
+  flex-wrap: wrap;
+}
 
+.nav-button {
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  background: #ffffffbf;
+  color: #4d2b6b;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
 
+.nav-button.active {
+  background: linear-gradient(135deg, #ff7f50, #ffb347);
+  color: white;
+}
 
-
-
-
-
-footer{
-  background-color: #edf0f4;
+.site-footer {
+  background: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 10px;
-  
-  left: 0;
-  bottom: 0;
+  padding: 14px 12px;
   width: 100%;
+  color: #4d2b6b;
 }
 
