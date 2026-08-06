@@ -1,4 +1,7 @@
 import jpimage from './assets/jp.jpeg.jpeg';
+
+
+  
 function PastorBirthdayApp() {
   return ( <>
     <div className="card">
@@ -13,7 +16,9 @@ function PastorBirthdayApp() {
  <label htmlFor="day"> DAY:</label>
     <input type="number" id="day" name="day" placeholder="00" maxLength={2} />
   </div>
- <button className='enter-button'>ENTER</button>
+
+ <button className='enter-button'
+   >ENTER</button> 
 
 
 
@@ -40,3 +45,4 @@ function PastorBirthdayApp() {
 );
 }
 export default PastorBirthdayApp
+
