@@ -28,11 +28,28 @@ body {
 }
 
 .greetings-title {
-  font-size: 2.2rem;
-  margin-bottom: 20px;
-  color: #8a2be2;
+  background: linear-gradient(135deg, #ff4e50 0%, #f9d423 50%, #e0c3fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 1.5rem 0;
+  letter-spacing: 1px;
+
+  animation: gentleFloat 3s ease-in-out infinite alternate;
 }
 
+@keyframes gentleFloat {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-6px);
+  }
+}
 .image {
   width: 100%;
   max-width: 360px;
