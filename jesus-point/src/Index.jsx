@@ -3,7 +3,7 @@ import { useState } from 'react';
 import jpimage from './assets/jp.jpeg.jpeg';
 import './PastorBirthdayApp.css';
 
-function PastorBirthdayApp({ onAdvance }) {
+function Index({ onAdvance }) {
   const [selectedDate, setSelectedDate] = useState('');
   const [feedback, setFeedback] = useState('');
   const [isCorrect, setIsCorrect] = useState(false);
@@ -61,4 +61,4 @@ function PastorBirthdayApp({ onAdvance }) {
   );
 }
 
-export default PastorBirthdayApp;
+export default Index;

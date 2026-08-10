@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import PastorBirthdayApp from './PastorBirthdayApp.jsx';
+import Index from './Index.jsx';
 import Footer from './Footer.jsx';
 import Greetings from './Greetings.jsx';
 import Videos from './videos.jsx';
@@ -24,7 +24,7 @@ function App() {
           />
         );
       default:
-        return <PastorBirthdayApp onAdvance={() => setCurrentPage('greetings')} />;
+        return <Index onAdvance={() => setCurrentPage('greetings')} />;
     }
   };
 

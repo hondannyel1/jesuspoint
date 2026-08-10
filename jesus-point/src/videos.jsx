@@ -31,11 +31,10 @@ function Videos({ onGoHome, onGoToGreetings }) {
                 controls
                 playsInline
                 preload="auto"
-                autoPlay={false}
                 muted={false}
                 onLoadedData={(event) => {
                   event.currentTarget.volume = 1;
-                  event.currentTarget.play().catch(() => undefined);
+                 
                 }}
               >
                 <source src={video.src} type="video/mp4" />
