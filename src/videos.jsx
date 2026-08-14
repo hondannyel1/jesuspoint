@@ -5,17 +5,23 @@ import neye from './assets/neye.mp4';
 import precious from './assets/precious.mp4';
 import chuka from './assets/chuka.mp4';
 import mmesoma from './assets/mmesoma.mp4';
-import victoria from './assets/victoria.mp4';
+import victoria from './assets/vickky.mp4';
+import emmanuel from  './assets/Emmanuel.mp4';
+
+
+
+
+
 
 function Videos({ onGoHome, onGoToGreetings }) {
   const videoList = [
-    { title: 'Bro.Danny EL', src: myvideos },
-    { title: 'Sis.Nenye', src: neye },
-    { title: 'Sis.Precious', src: precious },
+     { title: 'Bro.Danny EL', src: myvideos },
+     { title: 'Sis.Nenye', src: neye },
+     { title: 'Sis.Precious', src: precious },
      { title: 'Bro.Chuka', src: chuka },
      { title: 'Sis.mmesoma', src: mmesoma },
      { title: 'Sis.victoria', src: victoria },
-     
+    {title: 'Bro.Emmanuel', src: emmanuel}, 
 
 
   ];
