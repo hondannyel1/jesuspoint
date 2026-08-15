@@ -7,7 +7,7 @@ import chuka from './assets/chuka.mp4';
 import mmesoma from './assets/mmesoma.mp4';
 import victoria from './assets/vickky.mp4';
 import emmanuel from  './assets/Emmanuel.mp4';
-
+import kelvin from './assets/kelvin.mp4';
 
 
 
@@ -22,7 +22,7 @@ function Videos({ onGoHome, onGoToGreetings }) {
      { title: 'Sis.mmesoma', src: mmesoma },
      { title: 'Sis.victoria', src: victoria },
     {title: 'Bro.Emmanuel', src: emmanuel}, 
-
+    {title: 'Bro.Kelvin', src: kelvin}, 
 
   ];
 
